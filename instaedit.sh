@@ -50,7 +50,7 @@ read -p $'\e[1;77m[\e[0m\e[1;92m+\e[0m\e[1;77m] Phone: \e[0m' phone
 IFS=$'\n'
 read -p $'\e[1;77m[\e[0m\e[1;92m+\e[0m\e[1;77m] First Name: \e[0m' first_name
 IFS=$'\n'
-read -p $'\e[1;77m[\e[0m\e[1;92m+\e[0m\e[1;77m] Bio: \e[0m' biography
+read -p $'\e[1;77m[\e[0m\e[1;92m+\e[0m\e[1;77m] Bio: \e[0m' bio
 read -p $'\e[1;77m[\e[0m\e[1;92m+\e[0m\e[1;77m] External Url: \e[0m' external_url
 read -p $'\e[1;77m[\e[0m\e[1;92m+\e[0m\e[1;77m] Email: \e[0m' email
 data='{"username":"'$user'", "gender": "'$gender'", "phone_number": "'$phone'", "first_name": "'$first_name'", "biography": "'$bio'", "external_url": "'$external_url'", "email": "'$email'" }'
