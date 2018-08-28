@@ -7,4 +7,5 @@ cd /path/to/instaedit.sh
 2. Run the script
 #
 sudo sh instaedit.sh
+#
 3. Follow the prompts
